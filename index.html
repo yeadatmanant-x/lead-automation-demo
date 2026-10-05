@@ -10,7 +10,33 @@
 
     <h1>Lead Automation Demo</h1>
 
-    <p>This is my first webpage.</p>
+    <p>Submit your information below to request assistance.</p>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="phone">Phone:</label>
+<input type="tel" id="phone" name="phone" required>
+       
+        <label for="request">What do you need help with?</label>
+<textarea id="request" name="request" required></textarea>
+
+<label>
+    <input type="checkbox" name="sms_consent">
+    I agree to receive SMS messages related to my request. SMS consent is optional.
+</label>
+
+        <p>Message frequency may vary. Msg &amp; data rates may apply. Reply STOP to opt out. Reply HELP for help.</p>
+     <p>
+   
+         <a href="privacy.html">Privacy Policy</a> |
+   
+         <a href="terms.html">Terms & Conditions</a>
+</p>
+        <button type="submit">Submit Request</button>
+        
+    </form>
 
 </body>
 
